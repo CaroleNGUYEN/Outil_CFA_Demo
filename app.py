@@ -52,7 +52,7 @@ if "syst" not in st.session_state:
 if "soc" not in st.session_state:
         st.session_state.soc = load_data("prestation_equipement.xlsx")
 if "con" not in st.session_state:
-        st.session_state.con = False
+        st.session_state.con = True
 if "admin" not in st.session_state:
         st.session_state.admin = False
 if "projet" not in st.session_state:
@@ -461,5 +461,5 @@ def connexion():
             st.cache_data.clear()
             
 set_background('cables.jpg')                            
-connexion()
+#connexion()
 main()
