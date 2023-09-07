@@ -54,7 +54,7 @@ if "soc" not in st.session_state:
 if "con" not in st.session_state:
         st.session_state.con = True
 if "admin" not in st.session_state:
-        st.session_state.admin = False
+        st.session_state.admin = True
 if "projet" not in st.session_state:
         st.session_state.projet = dict()
 if "liste_projet" not in st.session_state:
