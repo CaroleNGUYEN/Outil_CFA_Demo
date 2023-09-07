@@ -179,7 +179,7 @@ def main() :
                                                             placeholder1.empty()
                                                     
                                             else:
-                                                if st.session_state.admin==False:
+                                                if st.session_state.admin==True:
                                                     placeholder1 = st.empty()
                                                     uploaded_file = placeholder1.file_uploader("Importer la liste d'équipements", accept_multiple_files=False)
 
